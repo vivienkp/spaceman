@@ -147,7 +147,7 @@ function updatePic() {
 		backgroundPic.src = 'spaceshipabducted1.jpg';
 	} else if (numberOfWrongGuesses == 7) {
 		alert(
-			'Oh no! He got abducted by Aliens!'
+			
 		);
 	}
 }
