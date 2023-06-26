@@ -134,17 +134,17 @@ function resetGame() {
 // Function that updates background picture of ship.
 function updatePic() {
 	if (numberOfWrongGuesses == 1) {
-		backgroundPic.src = 'spaceship/spaceshiphead.png';
+		backgroundPic.src = 'spaceshiphead.png';
 	} else if (numberOfWrongGuesses == 2) {
-		backgroundPic.src = 'spaceship/spaceshipheadbody.png';
+		backgroundPic.src = 'spaceshipheadbody.png';
 	} else if (numberOfWrongGuesses == 3) {
-		backgroundPic.src = 'spaceship/spaceshipheadbodyarm.png';
+		backgroundPic.src = 'spaceshipheadbodyarm.png';
 	} else if (numberOfWrongGuesses == 4) {
-		backgroundPic.src = 'spaceship/spaceshipheadbodyarmleg.png';
+		backgroundPic.src = 'spaceshipheadbodyarmleg.png';
 	} else if (numberOfWrongGuesses == 5) {
-		backgroundPic.src = 'spaceship/spaceshipheadbodyarmlegs.png';
+		backgroundPic.src = 'spaceshipheadbodyarmlegs.png';
 	} else if (numberOfWrongGuesses == 6) {
-		backgroundPic.src = 'spaceship/spaceshipabducted.png';
+		backgroundPic.src = 'spaceshipabducted.png';
 	} else if (numberOfWrongGuesses == 7) {
 		alert(
 			'Oh no! He got abducted by Aliens!'
