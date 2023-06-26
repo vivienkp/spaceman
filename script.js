@@ -144,7 +144,7 @@ function updatePic() {
 	} else if (numberOfWrongGuesses == 5) {
 		backgroundPic.src = 'spaceshipheadbodyarmlegs.png';
 	} else if (numberOfWrongGuesses == 6) {
-		backgroundPic.src = 'spaceshipabducted.png';
+		backgroundPic.src = 'spaceshipabducted1.jpg';
 	} else if (numberOfWrongGuesses == 7) {
 		alert(
 			'Oh no! He got abducted by Aliens!'
