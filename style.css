@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 80% 20% ;
+    grid-template-rows: 20% 60% 10% 10%;
+    background-color: white;
+    grid-template-areas:
+    "header header"
+    "main sidebar"
+    "section section"
+    "footer footer";
+}
+
+
+
+.spaceship {
+    grid-area: main;
+    /*height: 70vh; */
+    place-self: center;
+    align-items: start;
+    margin: 0px; 
+    padding: 0px; 
+}
+
+header {
+    grid-area: header;
+    font-size: 4vmin;
+    place-self: center;
+}
+
+.lettersGuessedArea {
+    grid-area: footer;
+    justify-self: center;
+    align-self: end;
+    /*display: flex;
+    justify-content: center;
+    align-items: center;*/
+
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background-color: #cbf3f0;
+    justify-self: start;
+    border-radius: 5%;
+    border-color: rgb(72, 77, 103);
+    border-style: solid;
+    
+}
+
+#wordPop {
+    font-size: 60px;
+    text-align: center;
+    align-self: end;
+}
+
+#alert{
+    font-size: medium;
+}
+

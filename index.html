@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<title>Spaceman</title>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<h1>SPACEMAN</h1>
+	</header><!--Spaceship-->
+	<section class="spaceship">
+		<span><img class="gameBox" src="spaceship_beam1.jpeg"></span>
+	</section><!--Incorrect Letter Bank Section-->
+	<nav class="sidebar">
+		<button id="resetBtn">Play Again</button> <u>Incorrect Guesses</u>
+		<aside id="lettersGuessed">
+			<ol class="wrongLetters">
+				<li id="wrongGuess1"></li>
+				<li id="wrongGuess2"></li>
+				<li id="wrongGuess3"></li>
+				<li id="wrongGuess4"></li>
+				<li id="wrongGuess5"></li>
+				<li id="wrongGuess6"></li>
+			</ol>
+		</aside>
+	</nav>
+	<section id="wordPop"></section>
+	<footer class="lettersGuessedArea">
+		<input class="input" id="myInput" placeholder="Type in your letter guess" type="text"> <button class="input" id="enterGuess">Submit</button>        
+	</footer>
+    <p id="alert"></p>
+	<section id="wordPop"></section>
+	<script src="script.js">
+	</script>
+</body>
+</html>
