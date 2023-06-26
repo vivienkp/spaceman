@@ -1,4 +1,4 @@
-<SPACEMAN>
+# <SPACEMAN>
 
 Spaceman is a game similar to hangman where the player is prompted to guess a 4 - 6 letter word. All words are space-themed. Player is given 6 tries and if successful an alien abduction is prevented. If the player exceeds 6 turns and fail to guess the word then the stickman gets beamed into the spaceship. 
 
