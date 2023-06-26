@@ -5,6 +5,7 @@ Spaceman is a game similar to hangman where the player is prompted to guess a 4 
 ## Game Pictures
 <img src="https://github.com/vivienkp/spaceman/blob/main/spaceman_img.png?raw=true">
 <img src="https://github.com/vivienkp/spaceman/blob/main/spacemana_lose.jpg?raw=true">
+<img src="https://github.com/vivienkp/spaceman/blob/main/spacesman_win.jpg?raw=true">
 
 ## Technologies Used
 HTML and CSS were used to create the display of the game. Javascript was used to create the logic and functionality of the game. Display messages and picture rendering were done through DOM manipulation.
